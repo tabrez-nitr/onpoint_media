@@ -18,7 +18,7 @@ export default function AboutSection() {
         <div className="lg:w-1/2 relative rounded-[2rem] overflow-hidden drop-shadow-xl min-h-[400px] md:min-h-[500px] lg:min-h-[600px] w-full">
           <Image
             src="/team-photo.png"
-            alt="Social Shepherd Team"
+            alt="onPoint media Team"
             fill
             className="object-cover"
             sizes="(max-width: 1024px) 100vw, 50vw"

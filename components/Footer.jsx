@@ -37,7 +37,7 @@ export default function Footer() {
             <div className="md:w-1/2 relative min-h-[400px] md:min-h-[auto]">
               <Image
                 src="/team-photo.png"
-                alt="The Social Shepherd Team"
+                alt="The onPoint media Team"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -80,10 +80,10 @@ export default function Footer() {
               {/* Logo */}
               <div className="mb-6 inline-block">
                 <h2 className="text-[28px] font-bold leading-[0.9] tracking-tight flex items-center">
-                  Social<span className="w-8 h-[2px] bg-white ml-1 mt-3"></span>
+                  onPoint<span className="w-8 h-[2px] bg-white ml-1 mt-3"></span>
                 </h2>
                 <h2 className="text-[28px] font-bold leading-[0.9] tracking-tight">
-                  Shepherd
+                  media
                 </h2>
               </div>
 
@@ -139,8 +139,8 @@ export default function Footer() {
                 <div className="flex items-start gap-3">
                   <Send size={16} className="text-[#6fe0cf] shrink-0 mt-1" />
                   <div>
-                    <a href="mailto:hello@thesocialshepherd.com" className="block text-[15px] font-medium text-gray-200 hover:text-[#6fe0cf] transition-colors mb-1">
-                      UK - hello@thesocialshepherd.com
+                    <a href="mailto:hello@onpointmedia.com" className="block text-[15px] font-medium text-gray-200 hover:text-[#6fe0cf] transition-colors mb-1">
+                      UK - hello@onpointmedia.com
                     </a>
                     <p className="text-[14px] text-gray-500 leading-relaxed font-medium">
                       Alexander House, James Street West,<br />
@@ -152,8 +152,8 @@ export default function Footer() {
                 <div className="flex items-start gap-3">
                   <Send size={16} className="text-[#6fe0cf] shrink-0 mt-1" />
                   <div>
-                    <a href="mailto:hi@thesocialshepherd.com" className="block text-[15px] font-medium text-gray-200 hover:text-[#6fe0cf] transition-colors mb-1">
-                      US - hi@thesocialshepherd.com
+                    <a href="mailto:hi@onpointmedia.com" className="block text-[15px] font-medium text-gray-200 hover:text-[#6fe0cf] transition-colors mb-1">
+                      US - hi@onpointmedia.com
                     </a>
                     <p className="text-[14px] text-gray-500 leading-relaxed font-medium">
                       524 Broadway, New York, NY 10012
@@ -182,7 +182,7 @@ export default function Footer() {
                   <span className="text-[8px] font-black tracking-widest">27001</span>
                 </div>
               </div>
-              <span>@2026 The Social Shepherd</span>
+              <span>@2026 The onPoint media</span>
               <div className="flex items-center gap-6">
                 <Link href="/rights" className="hover:text-white transition-colors">All rights reserved</Link>
                 <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>

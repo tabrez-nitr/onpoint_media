@@ -63,7 +63,7 @@ export default function AwardsSection() {
         <div className="lg:w-1/2 relative rounded-[2rem] overflow-hidden drop-shadow-xl min-h-[500px] md:min-h-[600px] lg:min-h-[700px] w-full order-1 lg:order-2">
           <Image
             src="/awards-photo.png"
-            alt="Social Shepherd Award Winners"
+            alt="onPoint media Award Winners"
             fill
             className="object-cover"
             sizes="(max-width: 1024px) 100vw, 50vw"

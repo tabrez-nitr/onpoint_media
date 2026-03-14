@@ -1,18 +1,28 @@
 import React from 'react';
 import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
+import Image from 'next/image';
+import onPointLogo from '../public/onPointMedia.png';
 
 export default function Navbar() {
   return (
     <nav className="flex items-center justify-between py-6 px-12 md:px-24">
       <div className="flex items-center">
-        <Link href="/" className="text-2xl font-bold leading-tight tracking-tight">
+        {/* <Link href="/" className="text-2xl font-bold leading-tight tracking-tight">
           Social<br />
           <span className="relative">
             Shepherd
             <span className="absolute bottom-0 left-0 w-full h-[3px] bg-black"></span>
           </span>
-        </Link>
+         
+        </Link> */}
+         <Image
+          src={onPointLogo}
+          alt="onPoint Media Logo"
+          width={120}
+          height={120}
+          className="w-30 h-20"
+          />
       </div>
 
       <div className="hidden lg:flex items-center space-x-8 text-sm font-medium">
